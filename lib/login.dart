@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:dinosaurs/list.dart';
 import 'package:flutter/material.dart';
 import 'package:quickalert/quickalert.dart';
@@ -66,6 +67,7 @@ class LoginPage extends StatelessWidget {
                           password.text == 'angel') {
                           username.clear();
                           password.clear();
+                          AudioPlayer().play(AssetSource('turtle.mp3'));
                           Navigator.push(context, MaterialPageRoute(builder: ((context) => const DinoList())));
                       } else {
                         username.clear();
