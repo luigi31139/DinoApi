@@ -5,12 +5,12 @@ Dinosaurio dinosaurioFromJson(String str) => Dinosaurio.fromJson(json.decode(str
 String dinosaurioToJson(Dinosaurio data) => json.encode(data.toJson());
 
 class Dinosaurio {
-    final int id;
+    final String id;
     final String nombre;
     final String periodo;
     final String dieta;
-    final double longitudMetros;
-    final double pesoKg;
+    final String longitudMetros;
+    final String pesoKg;
     final String imagenUrl;
 
     Dinosaurio({
@@ -28,8 +28,8 @@ class Dinosaurio {
         nombre: json["nombre"],
         periodo: json["periodo"],
         dieta: json["dieta"],
-        longitudMetros: json["longitud_metros"]?.toDouble(),
-        pesoKg: json["peso_kg"]?.toDouble(),
+        longitudMetros: json["longitud_metros"],
+        pesoKg: json["peso_kg"],
         imagenUrl: json["imagen_url"],
     );
 

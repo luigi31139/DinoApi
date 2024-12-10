@@ -1,4 +1,5 @@
 import 'package:dinosaurs/login.dart';
+import 'package:dinosaurs/pages.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: Pages(),
     );
   }
 }
