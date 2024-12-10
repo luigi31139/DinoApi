@@ -45,7 +45,7 @@ class _DinoListState extends State<DinoList> {
                       child: Center(
                         child: Container(
                           padding: const EdgeInsets.only(top: 25),
-                          width: 200,
+                          width: 150,
                           height: 230,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(20),
