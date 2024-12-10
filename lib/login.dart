@@ -1,6 +1,5 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:dinosaurs/RegDino.dart';
-import 'package:dinosaurs/list.dart';
 import 'package:flutter/material.dart';
 import 'package:quickalert/quickalert.dart';
 
