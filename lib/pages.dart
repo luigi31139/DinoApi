@@ -29,13 +29,12 @@ class _PagesState extends State<Pages> {
     ];
 
     return Scaffold(
-      extendBody: true,
       body: screens[index],
       bottomNavigationBar: CurvedNavigationBar(
         onTap: (value) => setState(() => index = value),
         key: navigationkey,
         color: Colors.green,
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.greenAccent,
         animationCurve: Curves.easeInToLinear,
         animationDuration: const Duration(milliseconds: 300),
         height: 50,

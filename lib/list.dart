@@ -60,7 +60,7 @@ class _DinoListState extends State<DinoList> {
                       child: Center(
                         child: Container(
                           padding: const EdgeInsets.only(top: 25),
-                          width: 180,
+                          width: 160,
                           height: 200,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(20),
@@ -73,8 +73,8 @@ class _DinoListState extends State<DinoList> {
                                 child: FadeInImage.assetNetwork(
                                   placeholder: 'assets/claw.png',
                                   image: dinos[index].imagenUrl,
-                                  width: 150,
-                                  height: 130,
+                                  width: 130,
+                                  height: 100,
                                   fit: BoxFit.contain,
                                 ),
                               ),

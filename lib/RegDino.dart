@@ -46,6 +46,7 @@ class _RegDinoState extends State<RegDino> {
             child: SingleChildScrollView(
               child: Column(
                 children: [
+                  const SizedBox(height: 20),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(20),
                     child: imagenUrl.text.isNotEmpty
@@ -199,7 +200,8 @@ class _RegDinoState extends State<RegDino> {
                       },
                      child: const Text('Registrar',style: TextStyle(color: Colors.white),),
                    ),
-                  )
+                  ),
+                  const SizedBox(height: 20),
                 ],
               ),
             ),
