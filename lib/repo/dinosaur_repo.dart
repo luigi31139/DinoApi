@@ -4,7 +4,6 @@ import 'package:http/http.dart' as http;
 
 class DinoRepo {
 
-
  Future<List<dynamic>> getDinos() async {
     final url = Uri.parse('http://10.100.0.222/proyects/dinosaurs/getdinos.php');
     try {
@@ -21,5 +20,4 @@ class DinoRepo {
       return [];
     }
   }
-
 }
